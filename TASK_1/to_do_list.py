@@ -39,7 +39,7 @@ remove.grid(row=2, column=0, padx=10, pady=10)
 # Clear Completed button
 clear = tk.Button(app, text="Clear Completed", command=clear_completed)
 clear.grid(row=2, column=1, padx=10, pady=10)
-# Prioritize Task button
+
 prioritize = tk.Button(app, text="Prioritize Task", command=prioritize_task)
 prioritize.grid(row=2, column=2, padx=10, pady=10)
 app.mainloop()
